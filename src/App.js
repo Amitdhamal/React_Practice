@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+//  import Export from "./export/Main";
+//  import Jsx from "./jsx/Main";
+//  import Props from "./props/Main"\
+// import Events from "./events/Main";
+// import Conditional from "./Conditional/Main";
+// import State from "./state/Main"
+// import Fragments from "./fragments/Main"
+// import Project1 from './Project/Main'
+import Form from './forms/Main'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Export />
+      <Jsx /> */}
+      {/* <Props /> */}
+      {/* <Prototype /> */}
+      {/* <Events /> */}
+      {/* <State /> */}
+      {/* <Conditional /> */}
+      {/* <Fragments /> */}
+      {/* <Project1/> */}
+      <Form/>
+
     </div>
   );
 }
-
+ 
 export default App;
